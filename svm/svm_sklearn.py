@@ -4,10 +4,11 @@ import time
 
 import numpy as np
 import pandas as pd
-from sklearn.cross_validation import train_test_split
+
 from sklearn.metrics import accuracy_score
 from sklearn import datasets
 from sklearn import svm
+from sklearn.model_selection import train_test_split
 
 if __name__ == '__main__':
 
